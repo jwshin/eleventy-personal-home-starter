@@ -1,0 +1,33 @@
+{
+  "name": "home",
+  "version": "1.0.0",
+  "description": "Eleventy Personal Home Starter",
+  "main": "index.js",
+  "scripts": {
+    "dev": "eleventy --serve  --port=3000",
+    "build": "eleventy",
+    "clean": "rimraf ./_site",
+    "format": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwshin/eleventy-personal-home-starter.git"
+  },
+  "author": "Jin woo Shin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jwshin/eleventy-personal-home-starter/issues"
+  },
+  "homepage": "https://github.com/jwshin/eleventy-personal-home-starter#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.0-beta.2",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-replace": "^5.0.2",
+    "@rollup/plugin-terser": "^0.4.0",
+    "date-fns": "^2.29.3",
+    "eleventy-plugin-rollup": "^1.2.1",
+    "prettier": "^2.8.3",
+    "rimraf": "^4.1.2",
+    "rollup": "^3.12.0"
+  }
+}

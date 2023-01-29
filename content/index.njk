@@ -1,0 +1,12 @@
+---
+layout: base.njk
+---
+{% for post in collections.post %}
+  <section>
+    <hgroup>
+      <h2>{{ post.data.title }}</h2>
+      <h3>{{ post.data.date | dateformat }}</h3>
+    </hgroup>
+    <p>{{ post.content | safe}}</p>
+  </section>
+{% endfor %}
