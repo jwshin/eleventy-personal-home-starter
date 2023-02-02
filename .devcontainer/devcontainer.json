@@ -1,0 +1,11 @@
+{
+	"name": "eleventy-personal-home-starter",
+	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+	"image": "mcr.microsoft.com/devcontainers/javascript-node:0-16",
+	"portsAttributes": {
+		"3000": {
+			"label": "eleventy"
+		}
+	},
+	"postCreateCommand": "npm install"
+}
